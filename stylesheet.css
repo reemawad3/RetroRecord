@@ -1,0 +1,171 @@
+@media screen and (min-width:480px) {
+  .column {
+     float: left;
+  width: 40%;
+  }
+}
+*{
+  padding: 0px 30px 10px 30px;
+}
+
+body {
+  
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+header{ 
+    padding:70px; 
+    background-color: antiquewhite ;
+ 
+}
+
+
+ header h1 {  
+   padding-right: 200px;
+   font-size: 70px; 
+   color: #0156a3 ;
+   text-align: center;
+   animation: mymove 5s infinite;
+  
+} 
+@keyframes mymove {
+  from {color:#0156a3;}
+  to {color:#ffa200;}
+}
+header img {
+    float:left;
+    padding-top: 40px;
+    padding-left: 40px;
+    
+}
+h1{  font-size: 50px; 
+  color: #0156a3 ;
+  text-align: center
+
+}
+/* header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+  }
+  
+header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  } */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  li {
+    margin: 0.5em;
+    padding: 0.5em;
+    flex-basis: auto;
+  }
+  a {
+      color: #ffa200;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+  .column {
+    padding: 40px;
+    color: #0156a3  ;
+    font-size: 25px;
+  }
+
+
+
+  
+  .product{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .info{
+    text-align: center;
+    color:#ffa200 ;
+    
+  }
+
+  footer{ 
+  
+    padding: 10px;
+    text-align:center;
+  color: #0156a3;
+  font-size: larger;
+  }
+
+  h5{
+    font-size:40px; 
+    color: #0156a3 ;
+    text-align:center ;
+  }
+  #findus{
+    text-align:center ;
+    color:#ffa200;
+    font-size: xx-large;
+    animation: mymove 5s infinite;
+
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  input , textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+  }
+  
+  label {
+    font-size: 30px;
+    color:#ffa200 ;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color:#0156a3;
+    
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ffa200;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  
+  
+
+   
+  
